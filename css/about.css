@@ -1,0 +1,53 @@
+.workTitle {
+    font-family: 'MV Boli';
+}
+
+.fa {
+    font-size: 50px !important;
+    color: #fff;
+    padding: 0 !important;
+}
+
+.image {
+    background-image: url(../images/about/Group15.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+
+/* .over {
+    overflow-y: scroll;
+    height: 380px;
+    scrollbar-color: green;
+    scrollbar-width: none;
+} */
+
+.scrollbar {
+    height: 300px;
+    overflow-y: scroll;
+    margin-bottom: 25px;
+}
+
+.force-overflow {
+    /* min-height: 450px; */
+}
+
+.scrollbar-secondary::-webkit-scrollbar {
+    width: 8px;
+}
+
+.scrollbar-secondary::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+@media (max-width: 500px) {
+    .editDiv {
+        display: none;
+    }
+    .scrollbar {}
+    span {
+        font-size: 14px !important;
+        word-spacing: 3px;
+    }
+}

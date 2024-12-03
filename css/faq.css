@@ -1,0 +1,32 @@
+.bgDiv {
+    background-color: #be9fd8;
+}
+
+h1 {
+    font-family: 'MV Boli';
+}
+
+.fa {
+    font-size: 55px !important;
+    color: #fff;
+    padding: 0 !important;
+}
+
+.card {
+    border: 2px solid #643579 !important;
+    border-radius: 20px !important;
+}
+
+.arrowCircle {
+    width: 40px !important;
+    height: 40px !important;
+    border: 2px solid #643579 !important;
+    border-radius: 50% !important;
+    background-color: #643579;
+}
+
+.image {
+    background-image: url(../images/ask/1.png);
+    background-size: cover;
+    min-height: 100vh;
+}

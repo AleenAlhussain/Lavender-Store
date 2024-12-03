@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'MV Boli';
+    src: url('../fonts/MVBoli.woff2') format('woff2'), url('../fonts/MVBoli.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+.bgDiv {
+    background-color: #be9fd8;
+    height: 70px;
+}
+
+.fa {
+    font-size: 55px !important;
+    color: #fff;
+}
+
+h1 {
+    font-family: 'MV Boli';
+}
+
+h4 {
+    color: #643579;
+    font-family: 'MV Boli';
+}
+
+.card {
+    border: 2px solid #be9fd8 !important;
+    border-radius: 25px !important;
+}
+
+.card-img-top {
+    border-top-right-radius: 22px !important;
+    border-top-left-radius: 22px !important;
+    height: 250px;
+    width: 100%;
+}
+
+.card-body {
+    background-color: rgb(236, 217, 252) !important;
+    border-bottom-right-radius: 22px !important;
+    border-bottom-left-radius: 22px !important;
+}
+
+
+/* .swiper-navBtn {
+    color: #643579 !important;
+}
+
+.swiper-pagination {
+    color: #643579 !important;
+}
+
+.autoplay {
+    position: relative;
+}
+
+.prev_arrow {
+    position: absolute;
+    height: 100px;
+    
+
+cursor: pointer;
+top: 50%;
+left: 100%;
+display: inline-block;
+
+}
+.next_arrow {
+    position: absolute;
+    height: 100px;
+    cursor: pointer;
+    top: 50%;
+    right: 5%;
+    display: inline-block;
+}
+*/
+
+.leftArrow {
+    position: absolute;
+    top: 50%;
+    left: -65px;
+    font-size: 75px !important;
+    color: #be9fd8;
+    font-weight: 900;
+    width: 35px;
+    height: 35px;
+    z-index: 99;
+}
+
+.rightArrow {
+    position: absolute;
+    top: 50%;
+    right: -65px;
+    font-size: 75px !important;
+    color: #be9fd8;
+    font-weight: 900;
+    width: 35px;
+    height: 35px;
+    z-index: 999;
+    transition: 0.3s;
+    cursor: pointer;
+}

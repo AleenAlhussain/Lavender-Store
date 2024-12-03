@@ -1,0 +1,30 @@
+        /* body {
+    background-color: rgb(236, 217, 252);
+} */
+        
+        * {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        .bgBody {
+            background-color: rgb(236, 217, 252);
+        }
+        
+        .nav-item a {
+            color: #707070 !important;
+            text-transform: uppercase;
+            font-weight: 500 !important;
+        }
+        
+        .bgColor {
+            background-color: #be9fd8;
+        }
+        
+        .bgColor i {
+            font-size: 45px;
+            color: white;
+        }
+        
+        .edit {
+            width: 20% !important;
+        }
